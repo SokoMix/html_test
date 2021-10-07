@@ -1,0 +1,182 @@
+.contacts {
+    font-size: 20px;
+    width: 1000px;
+    height: 650px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.contacts li {
+    font-size: 15px;
+}
+.contacts>a:hover a {
+    color: #DC143C;
+}
+.review {
+    font-size: 20px;
+    background: #00BFFF;
+    display: block;
+    width: 600px;
+    height: 322px;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+}
+.wrapper {
+    display: block;
+    margin: auto; 
+}
+h1 {
+    text-align: center;
+}
+ul {
+    list-style: none;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+a:hover{
+    color: #DC143C;
+}
+.menu {
+    display: inline-block;
+    border: 1px solid black;
+    background: #00BFFF;
+    width: 100%;
+    white-space: nowrap;
+    text-align: center;
+}
+.menu li {
+    display: inline-block;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 20px;
+}
+#img_logo {
+    width: 150px;
+    height: 150px;
+    align-self: center;
+}
+.description {
+    text-align: center;
+}
+.description p {
+    font-size: 20px;
+}
+.end img {
+    width: 900px;
+    display: block;
+    margin: auto;
+    align-self: center;
+}
+.end {
+    font-size: 20px;
+    display: block;
+}
+body {
+    background-image: url(Image_source/ice_pic.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.show {
+    text-align: center;
+}
+.vityaz {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.vityaz a {
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-size: 34px;
+}
+.vityaz img {
+    margin: 5px;
+}
+.akbars img {
+    margin: 5px;
+}
+.avangard img {
+    margin: 5px;
+}
+.vityaz span {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.avangard {
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+}
+.avangard a {
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-size: 34px;
+}
+.avangard span {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.akbars {
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+}
+.akbars a {
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-size: 34px;
+}
+.akbars span {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.vityaz_content {
+    display: flex;
+    justify-content: center;
+}
+.descript_text {
+    display: block;
+    justify-content: center;
+}
+.descript_text pre {
+    font-size: 16px;
+    margin-bottom: 0;
+
+}
+.descript_text button {
+    display: block;
+    margin-left: 8.5%;
+    font-size: 17px;
+}
+.desc-it {
+    background: #00BFFF;
+    border-radius: 5em;
+}
+.vityaz:hover span {
+    color: #DC143C;
+}
+.vityaz:hover a {
+    color: #DC143C;
+}
+.akbars:hover span {
+    color: #DC143C;
+}
+.akbars:hover a {
+    color: #DC143C;
+}
+.avangard:hover span {
+    color: #DC143C;
+}
+.avangard:hover a {
+    color: #DC143C;
+}
