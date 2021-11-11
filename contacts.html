@@ -1,53 +1,61 @@
 <!DOCTYPE html>
 <html lang="en"> 
 <head>
+  <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <title>Контакты</title>
 </head>
 <body>
+  <div class="menu">
+    <ul>
+        <a href="mainpage.html">
+            <li>Главная</li>
+        </a>
+        <a href="catalog.html">
+            <li>Каталог</li>
+        </a>
+        <a href="contacts.html">
+            <li>Про магазин</li>
+        </a>
+    </ul>
+  </div>    
+<h1>Онлайн магазин хоккейной атрибутики</h1>
 <hr>
-  <ul>
-    <a href="mainpage.html">
-        <li>Главная</li>
-    </a>
-    <a href="catalog.html">
-        <li>Каталог</li>
-    </a>
+  <div class="wrapper">
+    <div class="contacts">
+      <p>Поддержка с 10:00 до 22:00</p>
+      <p>Контакты:</p>
+      <ul type = "square">
+        <li>VK: <a href="https://vk.com/sokomix">@sokomix</a></li>
+        <li>Почта: dimonsheu@mail.ru</li>
+      </ul>
+      <p>Наш магазин на карте:</p>
+      <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A09ad638136b1d4a9b4a2d0b5634820faab828523ea4985a6e782b1ef72e8ae0a&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
+      <p>Вы можете помочь магазину, оставив свой отзыв или пожелания в отзывах ниже</p>
+    </div>
+    <div class="review">
+      <form action="#">
+        <legend>Отзывы</legend>
+        <span>Введите свое имя/ник:</span><input type="text" name="name" placeholder="Имя/ник">
+        <br>
+        <span>Введите свою почту:</span><input type="email" name="email" placeholder="Почта">
+        <br>
+        <span>Ваш отзыв или пожелания:</span>
+        <br>
+        <textarea name="review" id="" cols="70" rows="11"></textarea>
+        <br>
+        <input type="submit" value="Отправить">
+        <input type="reset" value="Очистить">
+      </form>
+    </div>
+  </div>
+  <div class="end">
     <a href="contacts.html">
         <li>Про магазин</li>
     </a>
-  </ul>
-<hr>   
-<h1>Онлайн магазин хоккейной атрибутики</h1>
-<hr>
-    <p>Поддержка с 10:00 до 22:00</p>
-    <p>Контакты:</p>
-    <ul type = "square">
-      <li>VK: <a href="https://vk.com/sokomix">@sokomix</a></li>
-      <li>Почта: dimonsheu@mail.ru</li>
-    </ul>
-    <p>Наш магазин на карте:</p>
-    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A09ad638136b1d4a9b4a2d0b5634820faab828523ea4985a6e782b1ef72e8ae0a&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
-    <p>Вы можете помочь магазину, оставив свой отзыв или пожелания в отзывах ниже</p>
-    <form action="#">
-      <legend>Отзывы</legend>
-      <span>Введите свое имя/ник:</span><input type="text" name="name" placeholder="Имя/ник">
-      <br>
-      <span>Введите свою почту:</span><input type="email" name="email" placeholder="Почта">
-      <br>
-      <span>Ваш отзыв или пожелания:</span>
-      <br>
-      <textarea name="review" id="" cols="70" rows="11"></textarea>
-      <br>
-      <input type="submit" value="Отправить">
-      <input type="reset" value="Очистить"
-    </form>
-<hr>
-  <a href="contacts.html">
-      <li>Про магазин</li>
-  </a>
-  <em><small>© Только лицензированная продукция</small></em>
-<br>
-  <img src="Image_source/all_team_logo_without_background.png">
+    <em><small>© Только лицензированная продукция</small></em>
+    <br>
+    <img src="Image_source/all_team_logo_without_background_2.png">
+  </div>
 </body>
 </html>
